@@ -54,9 +54,6 @@ pyright = "^1.1.293"
 mypy = "^1.0.0"
 types-protobuf = "^4.21.0.5"
 
-[tool.poetry.extras]
-fastembed = ["fastembed"]
-
 [build-system]
 requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
